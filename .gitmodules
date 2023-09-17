@@ -1,0 +1,3 @@
+[submodule "aio"]
+	path = aio
+	url = https://github.com/nextcloud/all-in-one.git

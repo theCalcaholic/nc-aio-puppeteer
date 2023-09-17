@@ -1,0 +1,15 @@
+[package]
+name = "aio-puppeteer"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = {version = "0.11.20", features = ["default", "json", "gzip", "cookie_store"]}
+tokio = {vesion = "1.32.0", features = ["default", "macros", "rt-multi-thread"]}
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+regex = "1.9.5"
+reqwest_cookie_store = "0.6.0"
+cookie_store = "0.20.0"
